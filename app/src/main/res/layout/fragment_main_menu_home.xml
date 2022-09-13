@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BDC2BB"
+    tools:context=".MainMenuHomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="65dp"
+                android:text="더보기"
+                android:gravity="right"
+                android:fontFamily="@font/soojin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/white"
+                android:textSize="20sp"
+               android:padding="10dp"
+                android:fontFamily="@font/soojin"
+                android:text="Pick뮤니티"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="더보기"
+                android:gravity="right"
+                android:fontFamily="@font/soojin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:fontFamily="@font/soojin"
+                android:padding="10dp"
+                android:text="날씨별 코디 추천"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="더보기"
+                android:gravity="right"
+                android:fontFamily="@font/soojin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:fontFamily="@font/soojin"
+                android:text="행운의 컬러 코디"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="더보기"
+                android:gravity="right"
+                android:fontFamily="@font/soojin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:fontFamily="@font/soojin"
+                android:text="오늘의 추천 데일리룩"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="더보기"
+                android:gravity="right"
+                android:fontFamily="@font/soojin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:fontFamily="@font/soojin"
+                android:text="내 옷장 코디추천"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

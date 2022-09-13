@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/icon_home"
+        android:icon="@drawable/home"
+        android:title="메인" />
+
+    <item
+        android:id="@+id/icon_favorite"
+        android:icon="@drawable/icon_favorite"
+        android:title="PICK!" />
+
+    <item
+        android:id="@+id/icon_my_cloth"
+        android:icon="@drawable/icon_my_cloth"
+        android:title="내 옷장" />
+
+</menu>

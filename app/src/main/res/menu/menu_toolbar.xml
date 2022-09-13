@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:enabled="true"
+        android:title="검색"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/notify"
+        android:enabled="true"
+        android:icon="@drawable/notify"
+        android:title="알람"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/info"
+        android:enabled="true"
+        android:icon="@drawable/info"
+        android:title="내정보"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/item_cloth"
+        android:enabled="true"
+        app:showAsAction="never"
+        android:title="내 옷장" />
+    <item
+        android:id="@+id/item_cloth_recommend"
+        android:enabled="true"
+        app:showAsAction="never"
+        android:title="내 옷장 코디 추천" />
+    <item
+        android:id="@+id/item_daily_recommend"
+        android:enabled="true"
+        app:showAsAction="never"
+        android:title="오늘의 추천 데일리룩" />
+    <item
+        android:id="@+id/item_weather_recommend"
+        android:enabled="true"
+        app:showAsAction="never"
+        android:title="날씨 별 코디 추천" />
+    <item
+        android:id="@+id/item_lucky_color"
+        android:enabled="true"
+        app:showAsAction="never"
+        android:title="오늘의 행운의 컬러 코디" />
+    <item
+        android:id="@+id/item_community"
+        android:enabled="true"
+        app:showAsAction="never"
+        android:title="Pick뮤니티" />
+</menu>
